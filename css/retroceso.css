@@ -1,0 +1,18 @@
+.back-arrow {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.back-arrow:hover {
+    color: #007BFF; /* Cambia el color al pasar el ratón por encima */
+}
+
+.back-arrow::before {
+    content: "←"; /* Usa el carácter de flecha hacia la izquierda */
+    margin-right: 8px; /* Espacio entre la flecha y el texto */
+    font-size: 24px; /* Tamaño de la flecha */
+}
